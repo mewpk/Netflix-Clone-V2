@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NetSix Clone</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+  </head>
+  <body class="bg-gray-900">
+    <nav class="flex justify-between items-center py-4">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png" alt="NetSix Logo" class="w-40">
+      <ul class="flex">
+        <li><a href="#" class="text-white hover:text-gray-400 px-4">Home</a></li>
+        <li><a href="#" class="text-white hover:text-gray-400 px-4">TV Shows</a></li>
+        <li><a href="#" class="text-white hover:text-gray-400 px-4">Movies</a></li>
+        <li><a href="#" class="text-white hover:text-gray-400 px-4">New & Popular</a></li>
+        <li><a href="#" class="text-white hover:text-gray-400 px-4">My List</a></li>
+      </ul>
+      <div class="flex items-center">
+        <input type="text" placeholder="Search" class="bg-gray-800 text-sm rounded-full w-64 px-4 py-1">
+      </div>
+    </nav>
+    <header class="py-24">
+      <div class="container mx-auto px-10">
+        <div class="flex flex-col items-center">
+          <h1 class="text-5xl text-center text-white font-bold leading-tight mb-4">Unlimited movies, TV shows, and more.</h1>
+          <h2 class="text-2xl text-center text-white font-medium mb-8">Watch anywhere. Cancel anytime.</h2>
+          <button class="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-8 rounded-full">Try 30 days free</button>
+        </div>
+      </div>
+    </header>
+    <body class="container mx-auto px-10">
+      <section class="category mb-16">
+        <h2 class="text-white text-2xl font-bold mb-6">Popular on NetSix</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+              alt="Card Image" class="image_card">
+            <div class="py-6 px-4">
+              <h3 class="text_card">Stranger Things</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg"
+              alt="Card Image" class="image_card">
+            <div class="py-6 px-4">
+              <h3 class="text_card">Breaking Bad</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://www.themoviedb.org/t/p/original/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg"
+              alt="Card Image" class="image_card">
+            <div class="py-6 px-4">
+              <h3 class="text_card">The Witcher</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://www.themoviedb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+              alt="Card Image" class="image_card">
+            <div class="py-6 px-4">
+              <h3 class="text_card">The Queen's Gambit</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_.jpg"
+              alt="Card Image" class="image_card">
+            <div class="py-6 px-4">
+              <h3 class="text_card">Money Heist</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+</html>
